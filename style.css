@@ -1,12 +1,71 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #666666;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 96px;
+  padding-bottom: 64px;
+  background-color: white;
+  border-bottom: 8px solid #999999;
+}
+
+.intro-chunk {
+  max-width: 463px;
+  padding: 24px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.title {
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+  margin-bottom: 48px;
+}
+
+.indented-heading {
+  display: inline-block;
+  background-color: #ffbf00;
+  border-bottom: 8px solid #cc9900;
+  padding: 16px 32px;
+  margin: 0 0 0 -32px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+main {
+  padding-top: 64px;
+}
+
+main section {
+  background-color: white;
+  border-bottom: 8px solid #999999;
+  padding: 8px 24px 24px 24px;
+}
